@@ -1,0 +1,95 @@
+        body{
+        padding-top:4.2rem;
+		padding-bottom:4.2rem;
+		background: #f2eeee;
+        }
+        a{
+         text-decoration:none !important;
+         display: flex;
+         justify-content: center;
+         }
+         h1,h2,h3{
+         font-family: 'Kaushan Script', cursive;
+         }
+          .myform{
+		position: relative;
+		display: -ms-flexbox;
+		display: flex;
+		padding: 1rem;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		width: 100%;
+		pointer-events: auto;
+		background-color: #fff;
+		background-clip: padding-box;
+		border: 1px solid rgba(199, 21, 21, 0.2);
+		border-radius: 1.1rem;
+		outline: 0;
+		max-width: 500px;
+		 }
+
+         /* .form-control{
+            border-color: #131212;
+         } */
+
+
+
+          form .error {
+         color: #ff0000;
+         }
+
+        .theme-btn-one {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        font-size: 16px;
+        line-height: 26px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 500;
+        color: #fff ;
+        text-align: center;
+        padding: 12px 29px;
+        border-radius: 30px;
+        border: none;
+        z-index: 1;
+        transition: all 500ms ease;
+        }
+
+        .theme-btn-one i {
+            font-size: 14px;
+            margin-right: 8px;
+            font-weight: 400;
+        }
+        .theme-btn-one:hover {
+            background: #0d1927;
+
+        }
+
+        .theme-btn-one:before {
+            position: absolute;
+            content: '';
+            width: 0%;
+            height: 100%;
+            background: #0d1927;
+            border-radius: 30px;
+            left: 0px;
+            top: 0px;
+            z-index: -1;
+            transition: all 500ms ease;
+        }
+
+        .theme-btn-one:hover:before {
+        width: 100%;
+        opacity: 1;
+        }
+
+        .theme-btn-one{
+            background-color: #f85c70;
+        }
+
+
+            /* Email Verification */
+
+
+
+        

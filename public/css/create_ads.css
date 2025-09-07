@@ -1,0 +1,238 @@
+:root {
+    --ui: #F85C70;
+    --soft: #f2eeee;
+    --line: #d6d6db7b;
+    --dar: #000;
+    --radius: 14px;
+}
+
+body {
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.zoom-effect {
+    transition: all 0.4s;
+}
+
+.zoom-effect:hover {
+    transform: scale(1.04);
+
+}
+
+.add-ads {
+    background-color: #ffffff;
+    color: var(--ui);
+    border-color: var(--ui);
+    transition: all 0.5s;
+}
+
+.add-ads:hover {
+    background-color: var(--ui);
+    color: #fff;
+    border-color: var(--ui);
+}
+
+
+.back-bar {
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+}
+
+.topbar {
+    border-bottom: 1px solid var(--line);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.card-lite-all {
+    background: var(--soft);
+    margin-top: 150px;
+    border: 0.3px solid var(--line);
+    color: black;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.card-lite {
+    background: var(--soft);
+    margin-top: 150px;
+    border: 0.3px solid var(--line);
+    color: black;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.card-lite .title-pill {
+    font-size: larger;
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+}
+
+.field-form {
+    border-left: 0, 5px;
+    border-right: 0, 5px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: var(--ui);
+    transition: all 0.2s;
+}
+
+.field-form:hover {
+    border-left: 3px;
+    border-right: 3px;
+    border-top: 0.1px;
+    border-bottom: 0.1px;
+    border-style: solid;
+    border-color: var(--ui);
+
+}
+
+.field-form:focus {
+    border-left: 3px;
+    border-right: 3px;
+    border-top: 0.1px;
+    border-bottom: 0.1px;
+    border-style: solid;
+    border-color: var(--ui);
+    box-shadow: none !important;
+
+}
+
+.cancel-btn :hover {
+
+    background-color: red;
+    color: #fff;
+
+}
+
+.topbar {
+    border-bottom: 1px solid var(--line);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.moon-logo {
+    width: 90px;
+    height: auto;
+}
+
+.moon-logo-mob {
+    width: 70px;
+    height: auto;
+}
+
+.topbar-custom {
+    background-color: #fff;
+    padding: 0 calc(1.25rem / 2) 0 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 70px;
+    box-shadow: 0 .125rem .5rem rgba(0, 0, 0, .04);
+    z-index: 1000;
+    transition: all .1s ease-out
+}
+
+.topbar-custom .topnav-menu .nav-link {
+    padding: 0 15px;
+    color: #4a5a6b;
+    display: block;
+    line-height: 70px;
+    text-align: center;
+    max-height: 70px;
+    position: relative
+}
+
+
+@media(max-width:490px) {
+
+    .moon-logo {
+        display: none;
+    }
+
+    .moon-logo-mob {
+        display: flex;
+    }
+
+}
+
+@media(min-width:490px) {
+    .moon-logo {
+        display: flex;
+    }
+
+    .moon-logo-mob {
+        display: none;
+    }
+
+}
+
+@media (max-width:360px) {
+    .topbar-custom .topnav-menu .nav-link {
+        padding: 0 12px
+    }
+
+    .topbar-custom .button-menu-mobile {
+        width: 45px
+    }
+}
+
+@media (max-width:991.98px) {
+    body {
+        overflow-x: hidden;
+        padding-bottom: 80px
+    }
+
+    .sidebar {
+        display: none !important;
+    }
+
+    .page-wrap {
+        margin-left: 0;
+    }
+
+    .app-sidebar-menu {
+        z-index: 10 !important
+    }
+
+    .sidebar-enable .app-sidebar-menu {
+        display: block
+    }
+
+    .logo-box {
+        display: none !important
+    }
+
+    .topbar-custom {
+        left: 0 !important
+    }
+
+    .content-page {
+        margin-left: 0 !important;
+        padding: 0 10px
+    }
+
+    .footer {
+        left: 0 !important
+    }
+}
+
+
+.main {
+    margin-left: 100px !important;
+}
